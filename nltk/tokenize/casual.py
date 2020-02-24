@@ -146,6 +146,8 @@ REGEXPS = (
     r"""(?:@[\w_]+)""",
     # Twitter hashtags:
     r"""(?:\#+[\w_]+[\w\'_\-]*[\w_]+)""",
+    # Twitter cashtags:
+    r"""(?:\$+[\w_]+[\w\'_\-]*[\w_]+)""",
     # email addresses
     r"""[\w.+-]+@[\w-]+\.(?:[\w-]\.?)+[\w-]""",
     # Remaining word types:
